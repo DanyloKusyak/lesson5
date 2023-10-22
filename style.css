@@ -1,0 +1,27 @@
+* {
+    color: #212121;
+}
+
+section:first-child,
+footer {
+    background-color: #2F303A;
+}
+
+section:first-child h1 {
+    color: white;
+}
+
+section:first-child input {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+footer span:first-child {
+    color: #2196F3;
+}
+
+footer span,
+footer a,
+footer strong {
+    color: white;
+}

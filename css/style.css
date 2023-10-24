@@ -11,7 +11,7 @@ section:first-child h1 {
     color: white;
 }
 
-section:first-child input {
+section:first-child button {
     background-color: #2196F3;
     color: #FFFFFF;
 }
@@ -22,6 +22,7 @@ footer span:first-child {
 
 footer span,
 footer a,
-footer strong {
+footer strong,
+footer p {
     color: white;
 }

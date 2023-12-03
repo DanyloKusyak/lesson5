@@ -10,7 +10,12 @@ body {
     font-style: normal;
     color: var(--main-text);
 }
-
+div.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
 ul {
     list-style: none;
 }
@@ -19,7 +24,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
+.header {
+    padding: 25px 0;
+}
 .header-logo-web {
     color: #2196F3;
     font-size: 26px;
@@ -63,7 +70,10 @@ a {
     letter-spacing: 0.28px;
     word-wrap: break-word;
 }
-
+.section-slogan {
+    padding: 200px 237px;
+    text-align: center;
+}
 .section-slogan-title {
     color: white;
     font-size: 44px;
@@ -84,7 +94,9 @@ a {
     letter-spacing: 0.96px;
     word-wrap: break-word;
 }
-
+.section-feature {
+    padding: 94px 0;
+}
 .section-feature-title {
     color: var(--gray-text);
     font-size: 14px;
@@ -104,7 +116,9 @@ a {
     letter-spacing: 0.42px;
     word-wrap: break-word;
 }
-
+.section-team {
+    padding: 94px 0;
+}
 .section-box-title,
 .section-team-title {
     color: var(--gray-text);
@@ -131,7 +145,9 @@ a {
     letter-spacing: 0.48px;
     word-wrap: break-word;
 }
-
+.footer {
+    padding: 60px 0;
+}
 .footer-logo-web {
     color: #2196F3;
     font-size: 26px;

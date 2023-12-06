@@ -14,7 +14,6 @@ div.container {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 2px solid red;
 }
 ul {
     list-style: none;
@@ -73,6 +72,8 @@ a {
 .section-slogan {
     padding: 200px 237px;
     text-align: center;
+    background-color: #2F303A;
+    
 }
 .section-slogan-title {
     color: white;
@@ -145,8 +146,11 @@ a {
     letter-spacing: 0.48px;
     word-wrap: break-word;
 }
+
+
 .footer {
     padding: 60px 0;
+    background-color: #2F303A;
 }
 .footer-logo-web {
     color: #2196F3;
@@ -210,10 +214,6 @@ a {
 
 
 
-section:first-child,
-footer {
-    background-color: #2F303A;
-}
 
 section:first-child button {
     background-color: #2196F3;

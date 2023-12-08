@@ -69,13 +69,13 @@ a {
     letter-spacing: 0.28px;
     word-wrap: break-word;
 }
-.section-slogan {
-    padding: 200px 237px;
+.section-hero {
+    padding: 200px 0;
     text-align: center;
     background-color: #2F303A;
     
 }
-.section-slogan-title {
+.section-hero-title {
     color: white;
     font-size: 44px;
     font-family: Roboto;
@@ -86,7 +86,7 @@ a {
     word-wrap: break-word;
 }
 
-.section-slogan-btn {
+.section-hero-btn {
     color: white;
     font-size: 16px;
     font-family: Roboto;

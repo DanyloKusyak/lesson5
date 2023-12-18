@@ -177,7 +177,8 @@ a {
     padding: 94px 0;
     background-color: #F5F4FA;
 }
-.section-box{
+
+.section-box {
     padding-bottom: 94px;
 }
 
@@ -194,6 +195,11 @@ a {
 .section-team-list {
     display: flex;
     justify-content: space-between;
+}
+
+.section-team-list-item {
+    background-color: #FFF;
+    padding-bottom: 32px;
 }
 
 .section-box-title,

@@ -20,12 +20,12 @@ div.container {
 .header .container {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 .header-block {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -148,10 +148,7 @@ a {
 
 .section-feature-list {
     display: flex;
-}
-
-.section-feature-list-item {
-    padding: 0 15px;
+    column-gap: 30px;
 }
 
 .section-feature-title {
@@ -178,6 +175,10 @@ a {
 
 .section-team {
     padding: 94px 0;
+    background-color: #F5F4FA;
+}
+.section-box{
+    padding-bottom: 94px;
 }
 
 .section-box .container,

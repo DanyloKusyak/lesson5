@@ -42,6 +42,7 @@ a {
 
 .header {
     padding: 25px 0;
+    border-bottom:#ECECEC 1px solid;
 }
 
 .header-logo-web {
@@ -295,7 +296,7 @@ a {
 
 /* ===============portfolio============================ */
 .portfolio {
-    padding-bottom: 94px;
+    padding: 95px 0;
 }
 .portfolio-filters {
     display: flex;
@@ -332,9 +333,11 @@ a {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 26px;
 }
-
+.portfolio-list-item {
+    border: #EEEEEE 1px solid;
+}
 .portfolio-block-text {
     padding: 23px;
 }

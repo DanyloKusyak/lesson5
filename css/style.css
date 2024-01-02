@@ -42,7 +42,7 @@ a {
 
 .header {
     padding: 25px 0;
-    border-bottom:#ECECEC 1px solid;
+    border-bottom: #ECECEC 1px solid;
 }
 
 .header-logo-web {
@@ -298,6 +298,7 @@ a {
 .portfolio {
     padding: 95px 0;
 }
+
 .portfolio-filters {
     display: flex;
     align-items: center;
@@ -333,11 +334,19 @@ a {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 26px;
+    margin: 0 auto;
+    gap: 30px;
 }
+
 .portfolio-list-item {
     border: #EEEEEE 1px solid;
+    flex-basis: calc((100% - 60px) / 3);
 }
+
+.portfolio-img {
+    width: 100%;
+}
+
 .portfolio-block-text {
     padding: 23px;
 }

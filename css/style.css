@@ -154,7 +154,8 @@ a {
     display: flex;
     column-gap: 30px;
 }
-.section-feature-list-item::before{
+
+.section-feature-list-item::before {
     content: '';
     display: block;
     height: 120px;
@@ -162,15 +163,19 @@ a {
     margin-bottom: 30px;
     border-radius: 4px;
 }
+
 .antenna::before {
     background: url("../images/antenna1.svg") no-repeat 50% 50% / 70px 70px #F5F4FA;
 }
+
 .clock::before {
     background: url("../images/clock1.svg") no-repeat 50% 50% / 70px 70px #F5F4FA;
 }
+
 .diagram::before {
     background: url("../images/diagram1.svg") no-repeat 50% 50% / 70px 70px #F5F4FA;
 }
+
 .astronaut::before {
     background: url("../images/astronaut1.svg") no-repeat 50% 50% / 70px 70px #F5F4FA;
 }
@@ -227,6 +232,9 @@ a {
 .section-team-list-item {
     background-color: #FFF;
     padding-bottom: 32px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
 
 .section-box-title,

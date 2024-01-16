@@ -144,6 +144,7 @@ a {
     padding: 10px 32px;
     border-radius: 4px;
     background-color: var(--blue-back);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .section-feature {
@@ -373,6 +374,10 @@ a {
 .portfolio-list-item {
     border: #EEEEEE 1px solid;
     flex-basis: calc((100% - 60px) / 3);
+}
+
+.portfolio-list-item:hover {
+    box-shadow: 1px 4px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-img {

@@ -116,7 +116,9 @@ a {
 .section-hero {
     padding: 200px 0;
     text-align: center;
-    background-color: var(--footer-back);
+    /* background-color: var(--footer-back); */
+    background: url("../images/main_block_bgr.jpeg") no-repeat  var(--footer-back);
+    background-size: cover;
 
 }
 
@@ -145,6 +147,7 @@ a {
     border-radius: 4px;
     background-color: var(--blue-back);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .section-feature {

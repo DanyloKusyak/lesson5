@@ -80,10 +80,20 @@ a {
     letter-spacing: 0.28px;
     word-wrap: break-word;
 }
-
+.contact-link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 .navigation-link:hover,
 .contact-link:hover {
     color: var(--blue-back);
+}
+.contact-link-svg {
+    fill: var(--main-text);
+}
+.contact-link:hover .contact-link-svg {
+    fill: var(--blue-back);
 }
 
 .navigation-list {

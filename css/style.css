@@ -286,8 +286,34 @@ a {
     font-weight: 400;
     letter-spacing: 0.48px;
     word-wrap: break-word;
+    margin-bottom: 16px;
+}
+.team-icon-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.team-icon-list__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+}
+.team-icon-list__link:hover{
+    background-color: var(--blue-back);
+    border-radius: 50%;
 }
 
+.team-list__svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--main-text);
+}
+.team-icon-list__link:hover svg {
+    fill: white;
+}
 
 .footer {
     padding: 60px 0;

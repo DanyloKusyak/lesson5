@@ -3,6 +3,7 @@
     --gray-text: #212121;
     --blue-back: #2196F3;
     --footer-back: #2F303A;
+    --item-border: #AFB1B8;
 }
 
 body {
@@ -80,18 +81,22 @@ a {
     letter-spacing: 0.28px;
     word-wrap: break-word;
 }
+
 .contact-link {
     display: flex;
     gap: 10px;
     align-items: center;
 }
+
 .navigation-link:hover,
 .contact-link:hover {
     color: var(--blue-back);
 }
+
 .contact-link-svg {
     fill: var(--main-text);
 }
+
 .contact-link:hover .contact-link-svg {
     fill: var(--blue-back);
 }
@@ -232,8 +237,14 @@ a {
     padding-bottom: 94px;
 }
 
+.section-clients {
+    padding-top: 73px;
+    padding-bottom: 94px;
+}
+
 .section-box .container,
-.section-team .container {
+.section-team .container,
+.section-clients .container {
     text-align: center;
 }
 
@@ -256,7 +267,8 @@ a {
 }
 
 .section-box-title,
-.section-team-title {
+.section-team-title,
+.section-clients-title {
     color: var(--gray-text);
     font-size: 36px;
     font-family: Roboto;
@@ -288,12 +300,14 @@ a {
     word-wrap: break-word;
     margin-bottom: 16px;
 }
+
 .team-icon-list {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
+
 .team-icon-list__link {
     display: flex;
     align-items: center;
@@ -301,7 +315,8 @@ a {
     width: 44px;
     height: 44px;
 }
-.team-icon-list__link:hover{
+
+.team-icon-list__link:hover {
     background-color: var(--blue-back);
     border-radius: 50%;
 }
@@ -311,8 +326,37 @@ a {
     height: 20px;
     fill: var(--main-text);
 }
+
 .team-icon-list__link:hover svg {
     fill: white;
+}
+
+.section-clients-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-clients-list__link {
+    border: var(--item-border) solid 1px;
+    border-radius: 4px;
+    display: flex;
+    padding: 20px 0;
+}
+
+.section-clients-list__link:hover {
+    border-color: var(--blue-back);
+}
+
+.clients-list__svg {
+    height: 45px;
+    fill: var(--main-text);
+}
+
+.section-clients-list__link:hover svg {
+    fill: var(--blue-back);
 }
 
 .footer {

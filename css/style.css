@@ -3,7 +3,7 @@
     --gray-text: #212121;
     --blue-back: #2196F3;
     --footer-back: #2F303A;
-    --item-border: #AFB1B8;
+    --icon-default: #AFB1B8;
 }
 
 body {
@@ -324,7 +324,7 @@ a {
 .team-list__svg {
     width: 20px;
     height: 20px;
-    fill: var(--main-text);
+    fill:var(--icon-default);
 }
 
 .team-icon-list__link:hover svg {
@@ -340,10 +340,13 @@ a {
 
 
 .section-clients-list__link {
-    border: var(--item-border) solid 1px;
+    border: var(--icon-default) solid 1px;
     border-radius: 4px;
     display: flex;
-    padding: 20px 0;
+    height: 92px;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-clients-list__link:hover {
@@ -351,8 +354,8 @@ a {
 }
 
 .clients-list__svg {
-    height: 45px;
-    fill: var(--main-text);
+
+    fill: var(--icon-default);
 }
 
 .section-clients-list__link:hover svg {
@@ -425,10 +428,12 @@ a {
     height: 20px;
     fill: white;
 }
+
 .footer-social-list__link {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
 }
+
 .footer-social-list__link:hover {
     background-color: var(--blue-back);
     border-radius: 50%;

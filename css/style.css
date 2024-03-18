@@ -253,6 +253,28 @@ a {
     justify-content: space-between;
 }
 
+.section-box-list-item {
+    position: relative;
+    line-height: 0;
+    height: 100%;
+}
+
+.list-item-description {
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(47, 48, 58, 0.8);
+    text-transform: uppercase;
+    bottom: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
 .section-team-list {
     display: flex;
     justify-content: space-between;
@@ -324,7 +346,7 @@ a {
 .team-list__svg {
     width: 20px;
     height: 20px;
-    fill:var(--icon-default);
+    fill: var(--icon-default);
 }
 
 .team-icon-list__link:hover svg {

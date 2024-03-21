@@ -259,7 +259,19 @@ a {
     height: 100%;
 }
 
-.list-item-description {
+
+figure.image {
+    display: inline-block;
+    position: relative;
+}
+
+figure img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+figcaption {
     position: absolute;
     z-index: 5;
     left: 0;
@@ -273,6 +285,7 @@ a {
     font-size: 14px;
     font-weight: 700;
 }
+
 
 
 .section-team-list {
